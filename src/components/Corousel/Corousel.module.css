@@ -1,0 +1,23 @@
+.corousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 60px;
+  gap: 10px;
+}
+
+.corousel>img {
+  width: 40px;
+}
+
+.c-content {
+  width: calc(100% - 20vw);
+  display: flex;
+  gap: 15px;
+  overflow: hidden;
+  transition:all 0.3s
+}
+.c-content>div {
+  flex-basis: 30%;
+}

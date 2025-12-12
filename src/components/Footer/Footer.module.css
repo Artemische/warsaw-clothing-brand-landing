@@ -1,0 +1,39 @@
+.footer {
+  width:100%;
+  background-color: black;
+  display: flex;
+  padding-top: 20vh;
+  padding-bottom: 16vh;
+  justify-content: center;
+  gap: 7vw;
+  color: white;
+}
+
+.footer>img {
+  width: 150px;
+  height: 150px;
+}
+
+.footer>nav>span {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.footer>nav, .footer>nav>ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.footer>nav>ul {
+  list-style-type:none;
+  text-align: start;
+  padding: 0;
+  gap: 15px;
+  font-weight: 200;
+}
+
+.footer>nav>ul li {
+  cursor: pointer;
+}
